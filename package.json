@@ -1,7 +1,7 @@
 {
   "name": "cache-bust",
   "repository": "git://github.com/segmentio/cache-bust.git",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create cache-busted versions of a file using the MD5 hash of the file's contents.",
   "keywords": ["cache", "bust", "contents", "md5"],
   "dependencies": {

@@ -15,6 +15,20 @@ module.exports = exports = bust;
 
 
 /**
+ * Expose `alias`.
+ */
+
+exports.alias = alias;
+
+
+/**
+ * Expose `remove`.
+ */
+
+exports.remove = remove;
+
+
+/**
  * Cache bust a given `file`.
  *
  * @param {String} file
@@ -30,7 +44,7 @@ function bust (file, options) {
 
 
 /**
- * Return the cache-busted name for a `file`.
+ * Return the cache-busted filename for a given `file`.
  *
  * @param {String} file
  * @return {String}

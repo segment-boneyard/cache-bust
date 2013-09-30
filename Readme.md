@@ -29,6 +29,14 @@ bust(file); // creates a "build-43c191bf6d6c3f263a8cd0efd4a058ab.js"
       remove: false
     }
 
+### cacheBust.remove(file)
+  
+  Remove any existing cache-busted versions of a `file`.
+
+### cacheBust.alias(file)
+
+  Return the cache-busted alias for a given `file`.
+
 ## License
 
   MIT
