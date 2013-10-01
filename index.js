@@ -1,5 +1,4 @@
 
-var child_process = require('child_process');
 var crypto = require('crypto');
 var debug = require('debug')('cache-bust');
 var fs = require('fs');
