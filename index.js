@@ -88,7 +88,7 @@ function remove (file) {
   var base = path.basename(file, ext);
   var dir = path.dirname(file);
   var files = fs.readdirSync(dir);
-  var matcher = new RegExp(base + '-.' + ext);
+  var matcher = new RegExp(base + '-.*' + ext);
 
   files.forEach(function (file) {
     if (matcher.test(file)) {
